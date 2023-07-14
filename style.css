@@ -27,11 +27,15 @@ body {
     margin: 0 auto;
 }
 
-.nav__header {
-    display: grid;
+.nav__header ul>li {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding-top: 20px;
-    align-items: center;
+    align-items: center; */
 }
 
 .nav__header a {
