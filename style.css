@@ -11,7 +11,7 @@ body {
 
 .container {
     margin: 0 auto;
-    background-image: url(img/IMG_0030.webp);
+    background-image: url(img/IMG_0057.webp);
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,26 +27,48 @@ body {
     margin: 0 auto;
 }
 
-.nav__header ul>li {
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
-
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding-top: 20px;
-    align-items: center; */
-}
-
-.nav__header a {
-    list-style-type: none;
+/* .nav__header a {
     text-decoration: none;   
     color: black;
+} */
+
+.nav__content {
+    padding-top: 20px;
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-between;
+}
+
+.btn {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.8; 
+
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
 }
 
 .heading {
-    padding: 20px 0 20px 0;
+    padding: 0 0 20px 0;
+    font-family: 'Comic Sans MS';
+    color: azure;
+    font-size: 100px;
+    line-height: 1.5;
 }
+
+/* .txt {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    opacity: 0.7;
+    font-family: 'Optima', sans-serif;
+    line-height: 1.5;
+} */
 
 .main {
     margin: 0 auto;
@@ -62,6 +84,10 @@ body {
     margin: 0 auto;
     text-align: center;
     height: 80px;
-	margin-top: -80px;
-    color: aliceblue;
+	margin-top: -95px;
+    padding-top: 15px;
+    /* color: aliceblue; */
+    border-radius: 25px 25px 0 0;
+    background-color: white;
+    opacity: 0.8;
 }
